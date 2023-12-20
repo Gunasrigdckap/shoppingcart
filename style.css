@@ -6,7 +6,7 @@ font-family: 'Varela Round', sans-serif;
     color: white;
     text-align: center;
     position: relative;
-    top: 90px;
+    top: 75px;
 }
 .main_container{
     background-color: white;
@@ -15,7 +15,7 @@ font-family: 'Varela Round', sans-serif;
     box-shadow: 1px 1px 10px 0px rgb(9, 9, 9);
     border-radius: 5px;
     position: relative;
-    top: 100px;
+    top: 85px;
     left: 300px;
     height: 310px;
 
@@ -27,13 +27,11 @@ font-family: 'Varela Round', sans-serif;
 }
 .container1{
     width: 50%;
-    /* background-color: yellow; */
     margin: 20px;
 }
 .container2{
     width: 50%;
     margin: 20px;
-    /* background-color: orchid; */
 }
 input[type=text] {
     border: none;
@@ -54,7 +52,7 @@ button#submit_Btn {
     width: 90%;
     height: 25px;
     color: white;
-    font-size: 14px;
+    font-size: medium;
     position: relative;
     border-radius: 3px;
     top: 60px;
@@ -87,10 +85,50 @@ p{
     font-size: 10px;
     margin: 3px;
 }
-/* -------------------------------------------invalid------------------------------ */
+/* -------------------------------------------js------------------------------ */
 .invalid1{
     display: block;
 }
-/* .invalid2{
+.invalid2{
     display: block;
-}  */
+} 
+
+
+#emp{
+   
+    height: 30px;
+    display: flex;
+
+}
+
+.del_btn{
+   display: none;
+}
+
+h5 {
+    margin-top: 2px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 45px 0px 0px;
+}
+.total_div{
+    display: none;
+}
+.total_div2{
+    display: block;
+}
+#para2{
+    position: relative;
+    left: 170px;
+}
+
+#del_row{
+    color: rgb(150, 42, 42);
+    font-size: 12px;
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+    /* display: none; */
+}
